@@ -24,7 +24,7 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Diego's Portfolio</title>
+    <title>DG's Portfolio</title>
     <link rel="shortcut icon" type="image/jpg" href="/img/favicon.png" />
   </head>
   <body>
@@ -32,7 +32,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark navbar-translucent border-0">
       <div class="container">
         <div class="container-fluid">
-          <a class="navbar-brand" href="https://diegograssino.site">DG<i class="fas fa-meteor comet-green"></i>27AR</a>
+          <a class="navbar-brand" href="https://diegograssino.site"
+            >DG <i class="fas fa-meteor comet-green"></i> PORTFOLIO</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -98,7 +100,7 @@
               <h5>and i'm a <strong>Web Developer</strong>.</h5>
             </div>
             <div class="header-button mt-4 header-content-button">
-              <a class="btn btn-lg btn-info" href="#about-me">More About Me ...</a>
+              <a class="btn btn-lg btn-info more-rounded" href="#about-me">More About Me ...</a>
             </div>
           </div>
         </div>
@@ -110,9 +112,9 @@
 
     <div id="about-me"></div>
     <section class="mt-5 mb-5">
-      <div class="container card my-5">
+      <div class="container card my-5 more-rounded">
         <div class="row no-gutters">
-          <div class="col-md-4 short-info-card-img"></div>
+          <div class="col-md-4 short-info-card-img more-rounded"></div>
           <div class="col-md-8">
             <div class="card-body about-me-content">
               <h4 class="card-title short-info-card-center text-white">About Me</h4>
@@ -189,51 +191,100 @@
     </section>
     <!-- About Me End -->
 
-    <!-- Skills Logo Start -->
-    <article class="container mt-3 mb-5">
-      <div class="row">
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-html5 display-1"></i>
+    <div class="accordion container" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h4 class="mb-0 text-center">
+            <button
+              class="btn more-rounded more-info-hover"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <h5 class="card-title">Do you want to know more?<br></brA><i class="fas fa-angle-double-down"></i></h5>
+            </button>
+          </h4>
         </div>
-        <!-- Logo End -->
 
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-css3-alt display-1"></i>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body container">
+            <div class="row">
+              <div class="card col-12 col-sm-6 col-md-4">
+                <img src="/img/TKD.jpg" class="card-img-top" alt="Taekwon-Do ITF" />
+                <div class="card-body">
+                  <p class="card-text text-justify">
+                    I'm Taekwon-Do ITF 2nd Dan Black Belt who loves to compete, gold panamerican medalist in sparring
+                    (Santos 2018).
+                  </p>
+                </div>
+              </div>
+              <div class="card col-12 col-sm-6 col-md-4">
+                <img src="/img/bass1.jpg" class="card-img-top" alt="Playing bass" />
+                <div class="card-body">
+                  <p class="card-text text-justify">
+                    Also loves music and play bass in Reggae/ Rock/ Blues bands for many years.
+                  </p>
+                </div>
+              </div>
+              <div class="card col-12 col-sm-6 col-md-4">
+                <img src="/img/profile3.jpg" class="card-img-top" alt="Taekwon-Do ITF" />
+                <div class="card-body">
+                  <p class="card-text text-justify">Sometimes my beard dissapears ... but never last too long!</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Logo End -->
-
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-bootstrap display-1"></i>
-        </div>
-        <!-- Logo End -->
-
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-js-square display-1 mx-auto"></i>
-        </div>
-        <!-- Logo End -->
-
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-wordpress display-1"></i>
-        </div>
-        <!-- Logo End -->
-
-        <!-- Logo Start -->
-        <div class="col-4 col-sm-3 col-md-2 text-center">
-          <i class="fab fa-git display-1"></i>
-        </div>
-        <!-- Logo End -->
       </div>
-    </article>
+    </div>
+
+    <!-- Skills Logo Start -->
+    <!-- <article class="container mt-3 mb-5"> -->
+    <!-- <div class="row"> -->
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-html5 display-1"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-css3-alt display-1"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-bootstrap display-1"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-js-square display-1 mx-auto"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-wordpress display-1"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+
+    <!-- Logo Start -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 text-center"> -->
+    <!-- <i class="fab fa-git display-1"></i> -->
+    <!-- </div> -->
+    <!-- Logo End -->
+    <!-- </div> -->
+    <!-- </article> -->
     <!-- Skills Logo End -->
 
     <!-- Portfolio Start -->
     <div id="portfolio"></div>
-    <div class="container card my-5">
+    <div class="container card my-5 more-rounded">
       <h4 class="text-center mt-1 text-white">Portfolio</h4>
       <table class="table table-hover">
         <thead>
@@ -256,7 +307,7 @@
               > -->
             </th>
             <td class="text-center">
-              <a class="btn btn-info" target="_blank" href="https://github.com/DG27AR/portfolio"
+              <a class="btn btn-info more-rounded" target="_blank" href="https://github.com/DG27AR/portfolio"
                 ><i class="fab fa-github mr-1"></i>Repo</a
               >
             </td>
@@ -284,12 +335,12 @@
           </tr>
           <tr class="table-secondary">
             <th scope="row" class="text-center">
-              <a class="btn btn-success" target="_blank" href="https://fidenoa.ar"
+              <a class="btn btn-success more-rounded" target="_blank" href="https://fidenoa.ar"
                 ><i class="fas fa-link mr-1"></i>Site</a
               >
             </th>
             <td class="text-center">
-              <a class="btn btn-info" target="_blank" href="https://github.com/DG27AR/fidenoa.ar"
+              <a class="btn btn-info more-rounded" target="_blank" href="https://github.com/DG27AR/fidenoa.ar"
                 ><i class="fab fa-github mr-1"></i>Repo</a
               >
             </td>
@@ -326,16 +377,22 @@
           <form class="needs-validation" action="https://formspree.io/f/xnqolora" method="POST" novalidate>
             <div class="mb-3">
               <label for="validationCustom01" class="form-label">Email address</label>
-              <input type="email" name="_replyto" class="form-control" id="validationCustom01" required />
+              <input type="email" name="_replyto" class="form-control more-rounded" id="validationCustom01" required />
               <div class="invalid-feedback">Please, provide a valid email direction.</div>
             </div>
             <div class="mb-3">
               <label for="validationCustom02" class="form-label">Your Message</label>
-              <textarea class="form-control" name="message" id="validationCustom02" rows="14" required></textarea>
+              <textarea
+                class="form-control more-rounded"
+                name="message"
+                id="validationCustom02"
+                rows="14"
+                required
+              ></textarea>
               <div class="invalid-feedback">Please, write your message here.</div>
             </div>
 
-            <button type="submit" class="btn btn-info mt-3">Submit</button>
+            <button type="submit" class="btn btn-info mt-3 more-rounded">Submit</button>
           </form>
         </div>
 
@@ -356,7 +413,16 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
 
     <script>
       window.sr = ScrollReveal();

@@ -61,6 +61,20 @@ body {
   min-height: 250px;
 }
 
+.more-info-card-img {
+  background-image: url(../img/TKD.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 30%;
+  min-height: 250px;
+}
+
+.more-info-hover:hover {
+  transition-duration: 0.2s;
+  color: blanchedalmond;
+}
+
 .short-info-sign {
   font-style: italic;
   font-weight: bold;
@@ -71,4 +85,10 @@ body {
 
 .badge-color-goldenrod {
   background-color: goldenrod;
+}
+
+/* Other General Styles*/
+
+.more-rounded {
+  border-radius: 0.5em;
 }
