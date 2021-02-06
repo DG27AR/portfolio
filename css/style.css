@@ -12,7 +12,7 @@ body {
 
 /* Comet Style */
 .comet-green {
-  color: forestgreen;
+  color: lightgreen;
 }
 
 /* Header Styles */
@@ -53,7 +53,7 @@ body {
 }
 
 .short-info-card-img {
-  background-image: url(../img/profile.jpg);
+  background-image: url(../img/profile5.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,4 +98,31 @@ body {
 
 .more-rounded {
   border-radius: 0.5em;
+}
+
+.button-purple {
+  background-color: rgba(216, 112, 147, 0.8);
+  border-color: rgba(215, 140, 165, 0.8);
+  color: white;
+}
+
+.button-purple:hover {
+  background-color: rgba(227, 51, 109, 0.8);
+  border-color: rgb(207, 106, 140);
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.button-green {
+  background-color: rgba(144, 238, 144, 0.8);
+  border-color: rgba(144, 238, 144, 0.8);
+  color: lightgreen;
+  color: white;
+}
+
+.button-green:hover {
+  background-color: rgba(44, 229, 44, 0.8);
+  border-color: rgba(93, 229, 93, 0.8);
+  transition-duration: 0.4s;
+  color: white;
 }
