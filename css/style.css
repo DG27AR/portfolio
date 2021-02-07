@@ -126,3 +126,43 @@ body {
   transition-duration: 0.4s;
   color: white;
 }
+
+/* Angle Animation on more about me */
+
+.box-animate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+
+  /*start animation*/
+  animation-name: pippo;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pippo {
+  0% {
+    top: 55%;
+  }
+  100% {
+    top: 60%;
+  }
+}
+
+/* Animaton for Portfolio items */
+.zoom {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Skills */
+
+.check {
+  color: lightgreen;
+}

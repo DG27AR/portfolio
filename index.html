@@ -97,7 +97,7 @@
               <h1 class="h3">My name is <strong>Diego Grassino</strong>,</h1>
             </div>
             <div class="header-subtext mt-2 header-subtitle">
-              <h5>and i'm a <strong>Web Developer</strong>.</h5>
+              <h5>and i'm a <strong>Front End Developer</strong>.</h5>
             </div>
             <div class="header-button mt-4 header-content-button">
               <a class="btn btn-lg btn-info more-rounded button-purple" href="#about-me">More About Me ...</a>
@@ -111,47 +111,77 @@
     <!-- About Me Start -->
 
     <div id="about-me"></div>
-    <section class="mt-5 mb-5">
-      <div class="container card my-5 more-rounded">
+    <section class="mt-5 mb-3">
+      <div class="container card more-rounded">
         <div class="row no-gutters">
-          <div class="col-md-4 more-rounded text-center short-info-card-img">
-            <!-- <i class="fas fa-user-astronaut my-5" style="font-size: 20em; color: lightgreen"></i> -->
+          <div class="col-md-4 more-rounded text-center">
+            <i class="fas fa-user-astronaut mt-5 mx-0" style="font-size: 20em; color: lightgreen"></i>
           </div>
           <div class="col-md-8">
             <div class="card-body about-me-content">
               <h4 class="card-title short-info-card-center text-white">About Me</h4>
               <p class="card-text short-info-card-justify welcome-custom">
-                Hi, my name is Diego Grassino and i'm an Argentinian
-                <strong>bilingual</strong> (spanish native, spoken and written english)
-                <strong>Web Developer</strong> with actual residence on Tucumán city (Argentina). I consider myself a
-                resource that <strong>add value</strong> to projects, someone who are in
-                <strong>constant learning</strong> and with many years of experience in other fields like: team
-                leadership, sales or education that <strong>can give a plus</strong> in many situations. Actually i'm
-                working as freelance web developer making web layout (<strong>HTML + CSS + JavaScript</strong>) and
-                custom themes in <strong>Wordpress</strong>. I'm in progress of learning <strong>React</strong> and
+                Hi, my name is Diego Grassino and i am a <strong>Front End Developer</strong>,
+                <strong>bilingual</strong> (spanish native, spoken and written english), actually with residence in
+                Argentina (San Miguel de Tucumán). I consider myself a resource that <strong>add value</strong> to
+                projects, someone who are in <strong>constant learning</strong> and with many years of experience in
+                other fields like: team leadership, sales or education that <strong>can give a plus</strong> in many
+                situations. Actually i'm working as freelance web developer creating web sites and custom themes in
+                <strong>Wordpress</strong>. I'm in progress of learning <strong>React</strong> and
                 <strong>Node.js</strong> to improve my skills. You can view some of my works in Portfolio section, or if
                 you are interested in my profile, feel free to contact me. ¡Thanks for visiting!.
               </p>
             </div>
           </div>
         </div>
+        <div class="row container mt-5">
+          <div class="card col-12 col-sm-12 col-md-6">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="fas fa-code"></i> Hard Skills</h5>
+              <p class="card-text">
+                <i class="fas fa-check-square check"></i> HTML <br />
+                <i class="fas fa-check-square check"></i> CSS <br />
+                <i class="fas fa-check-square check"></i> JavaScript <br />
+                <i class="fas fa-check-square check"></i> Wordpress Custom Themes <br />
+                <i class="fas fa-spinner check"></i> React (on formation) <br />
+                <i class="fas fa-spinner check"></i> Node.JS (on formation) <br />
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-12 col-md-6">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="far fa-user-circle"></i> Soft Skills</h5>
+              <p class="card-text">
+                <i class="fas fa-check-square check"></i> Problem Solving Orientation <br />
+                <i class="fas fa-check-square check"></i> Hard Work <br />
+                <i class="fas fa-check-square check"></i> Team Player <br />
+                <i class="fas fa-check-square check"></i> Experience in many areas <br />
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- About Me End -->
 
+    <!-- More about me section -->
     <div class="container card">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h5 class="accordion-header text-center" id="headingOne">
             <a
-              class="accordion-button more-rounded more-info mt-4"
+              class="accordion-button more-rounded more-info mt-3 mb-3"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              <p class="card-title">Do you want to know more?<br /><i class="fas fa-angle-double-down"></i></p>
+              <div class="card-title">
+                Do you want to know more?
+                <div class="container box-animate">
+                  <i class="fas fa-angle-double-down"></i>
+                </div>
+              </div>
             </a>
           </h5>
           <div
@@ -199,11 +229,11 @@
     <div class="container mt-3 more-rounded">
       <div class="row">
         <div class="mb-3 card col-12 col-sm-6 col-md-4">
-          <img src="/img/portfolio.png" class="card-img-top mt-3 more-rounded" alt="..." />
+          <img src="/img/portfolio.png" class="card-img-top mt-3 more-rounded zoom" alt="This Portfolio" />
           <div class="card-body">
             <div class="mt-1 mb-2 row">
               <div class="col-12 text-center mb-2">
-                <a class="btn button-green text-muted" style="width: 100%"><i class="fas fa-link mr-1"></i> Link</a>
+                <a class="btn button-green disabled" style="width: 100%"><i class="fas fa-link mr-1"></i> Link</a>
               </div>
               <div class="col-12 text-center">
                 <a
@@ -221,7 +251,7 @@
           </div>
         </div>
         <div class="mb-3 card col-12 col-sm-6 col-md-4">
-          <img src="/img/fidenoa.png" class="card-img-top mt-3 more-rounded" alt="..." />
+          <img src="/img/fidenoa.png" class="card-img-top mt-3 more-rounded zoom" alt=".Fidenoa.ar" />
           <div class="card-body">
             <div class="mt-1 mb-2 row">
               <div class="col-12 text-center mb-2">
