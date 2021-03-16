@@ -196,3 +196,10 @@ body {
   transform-origin: 0 0;
   transform: rotate(90deg);
 }
+
+/* acordion classes */
+
+.hidden {
+  height: 0px;
+  display: none;
+}
